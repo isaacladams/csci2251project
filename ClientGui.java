@@ -36,11 +36,13 @@ public class ClientGui extends JFrame {
 		JMenuItem actions3 = new JMenuItem("Warning Letter");
 		JMenuItem actions4 = new JMenuItem("Termination Letter");
 		JMenuItem actions5 = new JMenuItem("Evacuation Letter");
+		JMenuItem actions6 = new JMenuItem("Add Property");
 		actionMenu.add(actions1);
 		actionMenu.add(actions2);
 		actionMenu.add(actions3);
 		actionMenu.add(actions4);
 		actionMenu.add(actions5);
+		actionMenu.add(actions6);
 		menubar.add(actionMenu);
 		JMenu settingsMenu = new JMenu("Settings");
 		JMenuItem settings1 = new JMenuItem("Server Settings");
